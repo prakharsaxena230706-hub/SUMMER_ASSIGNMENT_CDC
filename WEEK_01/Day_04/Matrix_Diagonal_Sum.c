@@ -4,11 +4,10 @@ int diagonalSum(int n, int mat[n][n]) {
     int sum = 0;
     
     for (int i=0; i<n; i++) {
-        sum += mat[i][i];       // Primary diagonal
-        sum += mat[i][n-i-1]; // Secondary diagonal
+        sum += mat[i][i];     
+        sum += mat[i][n-i-1]; 
     }
     
-    // If the matrix has an odd dimension, remove the double-counted center element
     if ( n%2 != 0) {
         sum -= mat[n/2][n/2];
     }
