@@ -24,7 +24,7 @@ int main(void) {
     };
     
     int result=diagonalSum(n,matrix);
-    
+
     
     printf("Matrix Diagonal Sum: %d\n", result);
     
