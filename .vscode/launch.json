@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Summer Assignment(CDC)",
-      "program": "d:/Summer Assignment(CDC)/build/Debug/outDebug",
+      "cwd": "d:/Summer Assignment(CDC)/WEEK_02/Day_03",
+      "program": "d:/Summer Assignment(CDC)/WEEK_02/Day_03/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
